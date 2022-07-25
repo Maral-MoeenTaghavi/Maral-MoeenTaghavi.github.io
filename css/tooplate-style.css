@@ -43,7 +43,7 @@ p {
 =======================*/
 
 .first-section {
-	background-image: url(../img/first-section-bg.png);
+	background-image: url(../img/first-section-bg.gif);
 	background-size: cover;
 	width: 100%;
 	background-repeat: no-repeat;
@@ -150,7 +150,7 @@ p {
 =======================*/
 
 .fourth-section {
-	background-image: url(../img/fourth-section-bg.png);
+	background-image: url(../img/fourth-section-bg.gif);
 	background-size: cover;
 	width: 100%;
 	background-repeat: no-repeat;

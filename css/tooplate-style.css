@@ -168,15 +168,15 @@ p {
 }
 
 .fourth-section .first-item .text {
-	background-color: #f4f4f4;
+	background-color: #FFEAC2;
 }
 
 .fourth-section .second-item .text {
-	background-color: #eaeaea;
+	background-color: #FFC274;
 }
 
 .fourth-section .third-item .text {
-	background-color: #dedede;
+	background-color: #FFA336;
 }
 
 .fourth-section .portfolio-item .text {
@@ -185,24 +185,24 @@ p {
 
 .fourth-section .portfolio-item .text span {
 	font-size: 13px;
-	color: #7a7a7a;
+	color: #744A19;
 }
 
 .fourth-section .portfolio-item .text h4 {
 	font-size: 17px;
-	color: #343434;
+	color: #523411;
 	font-weight: 700;
 }
 
 .fourth-section .send-to-portfolio {
-	background-color: #415b90;
+	background-color: #FF8A00;
 	text-align: center;
-	padding:  46.7% 0px;
+	padding:  40% 0px;
 }
 
 .fourth-section .send-to-portfolio span {
 	display: inline-block;
-	font-size: 13px;
+	font-size: 21px;
 	color: #fff;
 }
 
@@ -212,11 +212,11 @@ p {
 
 .fourth-section .send-to-portfolio .primary-button a {
 	background-color: #fff;
-	color: #415b90;
+	color: #6E3C00;
 }
 
 .fourth-section .send-to-portfolio .primary-button a:hover {
-	background-color: #22304d;
+	background-color: #6E3C00;
 	color: #fff;
 	transition: all 0.3s;
 }
@@ -226,6 +226,7 @@ p {
 ----- FIVTH SECTION------
 =======================*/
 
+<! --
 .fivth-section {
 	background-image: url(../img/fivth-section-bg.png);
 	background-size: cover;
@@ -269,13 +270,65 @@ p {
 	margin-top: 15px;
 }
 
+-->
+/* ======================
+----- SEVENTH SECTION------
+=======================*/
+
+.seventh-section {
+	background-image: url(../img/seventh-section-bg.gif);
+	background-size: cover;
+	width: 100%;
+	background-repeat: no-repeat;
+	padding: 16% 0px;
+}
+
+.seventh-section .col-md-3 {
+	padding-left: 0px;
+	padding-right: 0px;
+}
+
+.seventh-section .portfolio-item img {
+	width: 100%;
+	overflow: hidden;
+}
+
+.seventh-section .first-item .text {
+	background-color: #f4f4f4;
+}
+
+.seventh-section .second-item .text {
+	background-color: #eaeaea;
+}
+
+.seventh-section .third-item .text {
+	background-color: #dedede;
+}
+
+.seventh-section .portfolio-item .text {
+	padding: 20px 25px;
+}
+
+.seventh-section .portfolio-item .text span {
+	font-size: 12px;
+	color: #7a7a7a;
+}
+
+.seventh-section .portfolio-item .text h4 {
+	font-size: 14px;
+	color: #343434;
+	font-weight: 700;
+}
+
+
+
 
 /* ======================
 ----- SIXTH SECTION------
 =======================*/
 
 .sixth-section {
-	background-image: url(../img/sixth-section-bg.png);
+	background-image: url(../img/sixth-section-bg.gif);
 	background-size: cover;
 	width: 100%;
 	background-repeat: no-repeat;
@@ -473,7 +526,7 @@ footer a:hover {
 }
 
 .send-to-home .back-to-home {
-	background-color: #415b90;
+	background-color: #54647C;
 	text-align: center;
 	padding: 45px 0px;
 }
